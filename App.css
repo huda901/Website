@@ -1,0 +1,176 @@
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(32, 58, 80);
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+  width: 150px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Menggunakan gap untuk jarak antar item */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+
+/* CSS untuk komponen Hero */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  background-image: url('./media/pantai\ pandawa.jpg');
+
+}
+
+.hero p{
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000;
+  margin-top: -450px;
+}
+
+* General Styling */
+body {
+  font-family: 'Times Roman', sans-serif;
+  background-color: #fcfdfd;
+  margin: 0;
+  padding: 0;
+  color: #f80000;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times Roman', sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  padding: 20px;
+}
+
+.features, .testimonials {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #04f2fa;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.features h2, .testimonials h2 {
+  color: #1b1a1a;
+  margin-bottom: 10px;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.features li {
+  margin-bottom: 5px;
+}
+
+.testimonials blockquote {
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #007bff;
+  color: #555;
+}
+
+.testimonials footer {
+  text-align: right;
+  color: #777;
+  font-size: 0.9em;
+}
+
+footer {
+  background-color: #f8f9fa; /* Warna latar belakang */
+  color: #333; /* Warna teks */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, sans-serif;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  color: #007bff; /* Warna tautan */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer div {
+  margin-top: 20px;
+}
+
+footer div h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer iframe {
+  margin-top: 10px;
+  border: 1px solid #ccc; /* Bingkai untuk peta */
+}
+
+footer p:last-of-type {
+  font-size: 15px;
+  color: #555;
+  margin-top: 20px;
+}
+
+
